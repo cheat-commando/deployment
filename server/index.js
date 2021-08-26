@@ -13,6 +13,10 @@ app.get('/style', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/styles.css'))
 })
 
+app.get('/image', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/me.jpg'))
+})
+
 const port = process.env.PORT || 4005
 
 app.listen(port, () => {
