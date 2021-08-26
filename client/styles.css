@@ -1,0 +1,88 @@
+img {
+    border-radius: 30rem;
+    clear: left;
+}
+
+#header {
+    text-align : left;
+    font-size : 12em;
+    max-width: max-content;
+    float: left;
+    margin-left: 0.33em;
+}
+
+header {
+    background-color: red;
+    box-sizing : borderbox;
+    padding : 0.25em;
+    height :30em;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    font-size : 6em;
+    margin-left : 1em
+}
+
+p {
+    font-size: 6em;
+    margin: 0px
+}
+
+body {
+    font-size: 5px
+}
+
+a {
+    color: white;
+    text-align: left;
+}
+
+#links {
+    font-size: 6em;
+    box-sizing: border-box;
+    padding-top: 3em;
+    text-align: center;
+    color: white
+}
+
+main {
+    line-height: 8em;
+}
+
+#side {
+    background-color :lightsalmon;
+    float: right;
+    font-size: 5em;
+    border-radius: 10px;
+    width : 20em;
+    padding: 0.75em;
+
+}
+
+#stats {
+    box-sizing: border-content;
+    width : max-content;
+    
+   
+}
+
+#buyNOW {
+    float: right;
+    width:10em;
+    text-align: center;
+    background-color: linen;
+    border-radius: 10px;
+    margin-top: 3em;
+}
+
+button {
+    background-color: red;
+    border-radius : 10px;
+    color: white;
+    font-size:1em;
+    margin: 1em;
+    border-color: black;
+    border-width: 3px
+}
